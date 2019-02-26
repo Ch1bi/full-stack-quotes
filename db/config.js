@@ -15,7 +15,8 @@ const setDatabase = () => {
         return pgp({
             database: 'quotes-app',
             port: 5432,
-            host: 'localhost'
+            host: 'localhost',
+            user: 'ch1bi',
         })
     }
 

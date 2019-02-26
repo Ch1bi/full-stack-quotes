@@ -16,7 +16,7 @@ Quote.findAll = () => {
 };
 
 //Return one quote with the specific id
-Quote.findById = (id) =>{
+Quote.findById = (id) => {
 
     return db.oneOrNone(
         `
